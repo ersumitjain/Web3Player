@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB0C67D2AB44A6E003D27D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0C67C2AB44A6E003D27D2 /* AppDelegate.swift */; };
+		CAB0C67F2AB44A6E003D27D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0C67E2AB44A6E003D27D2 /* SceneDelegate.swift */; };
+		CAB0C6842AB44A6E003D27D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB0C6822AB44A6E003D27D2 /* Main.storyboard */; };
+		CAB0C6862AB44A6F003D27D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB0C6852AB44A6F003D27D2 /* Assets.xcassets */; };
+		CAB0C6892AB44A6F003D27D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB0C6872AB44A6F003D27D2 /* LaunchScreen.storyboard */; };
+		CAB0C6942AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0C6932AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests.swift */; };
+		CAB0C69E2AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0C69D2AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests.swift */; };
+		CAB0C6A02AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0C69F2AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITestsLaunchTests.swift */; };
+		CAB0C6AD2AB44A91003D27D2 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0C6AC2AB44A91003D27D2 /* PlayerViewController.swift */; };
+		CAB0C6B02AB44B0A003D27D2 /* Web3AuthVideoLoaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB0C6AF2AB44B0A003D27D2 /* Web3AuthVideoLoaderDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAB0C6902AB44A6F003D27D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB0C6712AB44A6E003D27D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB0C6782AB44A6E003D27D2;
+			remoteInfo = Web3AuthVideoPlayerDemo;
+		};
+		CAB0C69A2AB44A70003D27D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAB0C6712AB44A6E003D27D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAB0C6782AB44A6E003D27D2;
+			remoteInfo = Web3AuthVideoPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAB0C6792AB44A6E003D27D2 /* Web3AuthVideoPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Web3AuthVideoPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB0C67C2AB44A6E003D27D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB0C67E2AB44A6E003D27D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAB0C6832AB44A6E003D27D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB0C6852AB44A6F003D27D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB0C6882AB44A6F003D27D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAB0C68A2AB44A6F003D27D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB0C68F2AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Web3AuthVideoPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB0C6932AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web3AuthVideoPlayerDemoTests.swift; sourceTree = "<group>"; };
+		CAB0C6992AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Web3AuthVideoPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB0C69D2AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web3AuthVideoPlayerDemoUITests.swift; sourceTree = "<group>"; };
+		CAB0C69F2AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web3AuthVideoPlayerDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAB0C6AC2AB44A91003D27D2 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		CAB0C6AF2AB44B0A003D27D2 /* Web3AuthVideoLoaderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web3AuthVideoLoaderDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB0C6762AB44A6E003D27D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB0C68C2AB44A6F003D27D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB0C6962AB44A70003D27D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB0C6702AB44A6E003D27D2 = {
+			isa = PBXGroup;
+			children = (
+				CAB0C67B2AB44A6E003D27D2 /* Web3AuthVideoPlayerDemo */,
+				CAB0C6922AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests */,
+				CAB0C69C2AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests */,
+				CAB0C67A2AB44A6E003D27D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB0C67A2AB44A6E003D27D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0C6792AB44A6E003D27D2 /* Web3AuthVideoPlayerDemo.app */,
+				CAB0C68F2AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests.xctest */,
+				CAB0C6992AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB0C67B2AB44A6E003D27D2 /* Web3AuthVideoPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0C6AE2AB44AEA003D27D2 /* Resource */,
+				CAB0C67C2AB44A6E003D27D2 /* AppDelegate.swift */,
+				CAB0C67E2AB44A6E003D27D2 /* SceneDelegate.swift */,
+				CAB0C6AC2AB44A91003D27D2 /* PlayerViewController.swift */,
+				CAB0C6822AB44A6E003D27D2 /* Main.storyboard */,
+				CAB0C6852AB44A6F003D27D2 /* Assets.xcassets */,
+				CAB0C6872AB44A6F003D27D2 /* LaunchScreen.storyboard */,
+				CAB0C68A2AB44A6F003D27D2 /* Info.plist */,
+			);
+			path = Web3AuthVideoPlayerDemo;
+			sourceTree = "<group>";
+		};
+		CAB0C6922AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0C6932AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests.swift */,
+			);
+			path = Web3AuthVideoPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		CAB0C69C2AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0C69D2AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests.swift */,
+				CAB0C69F2AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITestsLaunchTests.swift */,
+			);
+			path = Web3AuthVideoPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		CAB0C6AE2AB44AEA003D27D2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CAB0C6AF2AB44B0A003D27D2 /* Web3AuthVideoLoaderDelegate.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB0C6782AB44A6E003D27D2 /* Web3AuthVideoPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB0C6A32AB44A70003D27D2 /* Build configuration list for PBXNativeTarget "Web3AuthVideoPlayerDemo" */;
+			buildPhases = (
+				CAB0C6752AB44A6E003D27D2 /* Sources */,
+				CAB0C6762AB44A6E003D27D2 /* Frameworks */,
+				CAB0C6772AB44A6E003D27D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Web3AuthVideoPlayerDemo;
+			productName = Web3AuthVideoPlayerDemo;
+			productReference = CAB0C6792AB44A6E003D27D2 /* Web3AuthVideoPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAB0C68E2AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB0C6A62AB44A70003D27D2 /* Build configuration list for PBXNativeTarget "Web3AuthVideoPlayerDemoTests" */;
+			buildPhases = (
+				CAB0C68B2AB44A6F003D27D2 /* Sources */,
+				CAB0C68C2AB44A6F003D27D2 /* Frameworks */,
+				CAB0C68D2AB44A6F003D27D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB0C6912AB44A6F003D27D2 /* PBXTargetDependency */,
+			);
+			name = Web3AuthVideoPlayerDemoTests;
+			productName = Web3AuthVideoPlayerDemoTests;
+			productReference = CAB0C68F2AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAB0C6982AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB0C6A92AB44A70003D27D2 /* Build configuration list for PBXNativeTarget "Web3AuthVideoPlayerDemoUITests" */;
+			buildPhases = (
+				CAB0C6952AB44A70003D27D2 /* Sources */,
+				CAB0C6962AB44A70003D27D2 /* Frameworks */,
+				CAB0C6972AB44A70003D27D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAB0C69B2AB44A70003D27D2 /* PBXTargetDependency */,
+			);
+			name = Web3AuthVideoPlayerDemoUITests;
+			productName = Web3AuthVideoPlayerDemoUITests;
+			productReference = CAB0C6992AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB0C6712AB44A6E003D27D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CAB0C6782AB44A6E003D27D2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					CAB0C68E2AB44A6F003D27D2 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CAB0C6782AB44A6E003D27D2;
+					};
+					CAB0C6982AB44A70003D27D2 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CAB0C6782AB44A6E003D27D2;
+					};
+				};
+			};
+			buildConfigurationList = CAB0C6742AB44A6E003D27D2 /* Build configuration list for PBXProject "Web3AuthVideoPlayerDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB0C6702AB44A6E003D27D2;
+			productRefGroup = CAB0C67A2AB44A6E003D27D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB0C6782AB44A6E003D27D2 /* Web3AuthVideoPlayerDemo */,
+				CAB0C68E2AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests */,
+				CAB0C6982AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB0C6772AB44A6E003D27D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB0C6892AB44A6F003D27D2 /* LaunchScreen.storyboard in Resources */,
+				CAB0C6862AB44A6F003D27D2 /* Assets.xcassets in Resources */,
+				CAB0C6842AB44A6E003D27D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB0C68D2AB44A6F003D27D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB0C6972AB44A70003D27D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB0C6752AB44A6E003D27D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB0C6B02AB44B0A003D27D2 /* Web3AuthVideoLoaderDelegate.swift in Sources */,
+				CAB0C6AD2AB44A91003D27D2 /* PlayerViewController.swift in Sources */,
+				CAB0C67D2AB44A6E003D27D2 /* AppDelegate.swift in Sources */,
+				CAB0C67F2AB44A6E003D27D2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB0C68B2AB44A6F003D27D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB0C6942AB44A6F003D27D2 /* Web3AuthVideoPlayerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB0C6952AB44A70003D27D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB0C69E2AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITests.swift in Sources */,
+				CAB0C6A02AB44A70003D27D2 /* Web3AuthVideoPlayerDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAB0C6912AB44A6F003D27D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB0C6782AB44A6E003D27D2 /* Web3AuthVideoPlayerDemo */;
+			targetProxy = CAB0C6902AB44A6F003D27D2 /* PBXContainerItemProxy */;
+		};
+		CAB0C69B2AB44A70003D27D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAB0C6782AB44A6E003D27D2 /* Web3AuthVideoPlayerDemo */;
+			targetProxy = CAB0C69A2AB44A70003D27D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAB0C6822AB44A6E003D27D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB0C6832AB44A6E003D27D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB0C6872AB44A6F003D27D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB0C6882AB44A6F003D27D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB0C6A12AB44A70003D27D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAB0C6A22AB44A70003D27D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB0C6A42AB44A70003D27D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Web3AuthVideoPlayerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Web3AuthVideoPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAB0C6A52AB44A70003D27D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Web3AuthVideoPlayerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Web3AuthVideoPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAB0C6A72AB44A70003D27D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Web3AuthVideoPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Web3AuthVideoPlayerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Web3AuthVideoPlayerDemo";
+			};
+			name = Debug;
+		};
+		CAB0C6A82AB44A70003D27D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Web3AuthVideoPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Web3AuthVideoPlayerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Web3AuthVideoPlayerDemo";
+			};
+			name = Release;
+		};
+		CAB0C6AA2AB44A70003D27D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Web3AuthVideoPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Web3AuthVideoPlayerDemo;
+			};
+			name = Debug;
+		};
+		CAB0C6AB2AB44A70003D27D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Web3AuthVideoPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Web3AuthVideoPlayerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB0C6742AB44A6E003D27D2 /* Build configuration list for PBXProject "Web3AuthVideoPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB0C6A12AB44A70003D27D2 /* Debug */,
+				CAB0C6A22AB44A70003D27D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB0C6A32AB44A70003D27D2 /* Build configuration list for PBXNativeTarget "Web3AuthVideoPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB0C6A42AB44A70003D27D2 /* Debug */,
+				CAB0C6A52AB44A70003D27D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB0C6A62AB44A70003D27D2 /* Build configuration list for PBXNativeTarget "Web3AuthVideoPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB0C6A72AB44A70003D27D2 /* Debug */,
+				CAB0C6A82AB44A70003D27D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB0C6A92AB44A70003D27D2 /* Build configuration list for PBXNativeTarget "Web3AuthVideoPlayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB0C6AA2AB44A70003D27D2 /* Debug */,
+				CAB0C6AB2AB44A70003D27D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB0C6712AB44A6E003D27D2 /* Project object */;
+}
